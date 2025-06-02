@@ -22,7 +22,7 @@ This guide explains how to build and deploy the **MusicalBirthdayQuest** app to 
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/sabank/MusicalBirthdayQuest.git
+git clone https://github.com/<YOUR_USERNAME>/MusicalBirthdayQuest.git
 cd MusicalBirthdayQuest
 ```
 
@@ -53,7 +53,7 @@ npm install
 - In `package.json`, ensure:
   ```json
   "name": "MusicalBirthdayQuest",
-  "homepage": "https://sabank.github.io/MusicalBirthdayQuest/",
+  "homepage": "https://<YOUR_USERNAME>.github.io/MusicalBirthdayQuest/",
   ```
 - In `vite.config.ts`, ensure:
   ```typescript
@@ -114,7 +114,7 @@ git push -f origin gh-pages
 ### 8. Access Your Live Site
 
 After a few minutes, your app will be live at:  
-[https://sabank.github.io/MusicalBirthdayQuest/](https://sabank.github.io/MusicalBirthdayQuest/)
+https://<YOUR_USERNAME>.github.io/MusicalBirthdayQuest/
 
 ---
 
@@ -131,6 +131,3 @@ After a few minutes, your app will be live at:
 - Never commit your `.env` file to the repository.
 - For security, restrict your API key in the Google Cloud Console as much as possible.
 
----
-
-**For troubleshooting or questions, check the browser console for errors or open an issue on the repository.**
