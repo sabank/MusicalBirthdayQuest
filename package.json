@@ -1,5 +1,6 @@
 {
-  "name": "pho's-mystical-birthday-quest",
+  "name": "MusicalBirthdayQuest",
+  "homepage": "https://sabank.github.io/MusicalBirthdayQuest/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
