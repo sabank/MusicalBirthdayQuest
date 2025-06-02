@@ -8,10 +8,11 @@ let ai: GoogleGenAI | null = null;
 
 function getGoogleAI(): GoogleGenAI {
   if (!ai) {
-    if (!process.env.API_KEY) {
-      throw new Error("API_KEY environment variable not set.");
+    const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+    if (!apiKey) {
+      throw new Error("VITE_GEMINI_API_KEY environment variable not set.");
     }
-    ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    ai = new GoogleGenAI({ apiKey });
   }
   return ai;
 }
