@@ -1,0 +1,5 @@
+{
+  "name": "Pho's Mystical Birthday Quest",
+  "description": "A dynamic text adventure game leading to a special birthday message for Pho's 20th birthday. Uses Gemini for story generation and Imagen for immersive visuals.",
+  "requestFramePermissions": []
+}
