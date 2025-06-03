@@ -14,7 +14,7 @@ This guide explains how to build and deploy the **MusicalBirthdayQuest** app to 
 
 - Node.js and npm installed
 - Git installed
-- A [Gemini API key](https://ai.google.dev/gemini-api/docs/get-api-key)
+- A [Gemini API key](https://ai.google.dev/gemini-api/docs/api-key)
 - Access to the [MusicalBirthdayQuest GitHub repository](https://github.com/sabank/MusicalBirthdayQuest)
 
 ---
